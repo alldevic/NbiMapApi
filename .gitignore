@@ -332,4 +332,7 @@ ASALocalRun/
 NbiMapApi.Server/Scripts/
 NbiMapApi.Server/Content/
 
+NbiMapApi.jsClient/Scripts/
+NbiMapApi.jsCLient/Content/
+
 *.zip
