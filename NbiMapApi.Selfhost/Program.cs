@@ -19,9 +19,9 @@ namespace NbiMapApi.Selfhost
                     s.WhenStopped(service => service.Stop());
                 });
                 x.StartAutomatically();
-                x.SetServiceName("curchartsvc");
-                x.SetDisplayName("CurrencyChart Server");
-                x.SetDescription("CurrencyChart for Hackathon Light 2019");
+                x.SetServiceName("nbimapsvc");
+                x.SetDisplayName("NbiMapApi Server");
+                x.SetDescription("NbiMapApi Service for Hackathon Light 2019");
                 x.RunAsNetworkService();
             });
 
