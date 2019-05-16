@@ -14,16 +14,12 @@ namespace NbiMapApi.Server
     {
         public void Configuration(IAppBuilder app)
         {
-            app   .UseFileServer(new FileServerOptions
+            app.UseFileServer(new FileServerOptions
                 {
-                    RequestPath = new PathString("/scripts"),
-                    FileSystem = new PhysicalFileSystem("scripts")
+                    RequestPath = new PathString("/js"),
+                    FileSystem = new PhysicalFileSystem("js")
                 })
-                .UseFileServer(new FileServerOptions
-                {
-                    RequestPath = new PathString("/codebehind"),
-                    FileSystem = new PhysicalFileSystem("codebehind")
-                })
+                .UseCors(CorsOptions.AllowAll)
                 .UseNancy();
         }
 
