@@ -4,8 +4,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbiMapApi.Server", "NbiMapA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbiMapApi.Selfhost", "NbiMapApi.Selfhost\NbiMapApi.Selfhost.csproj", "{9CB84D7F-5971-4257-9206-6E00FC9F2728}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTest", "ApiTest\ApiTest.csproj", "{6207C0CA-F463-436F-9CB4-910A2B6DC474}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,9 +18,5 @@ Global
 		{9CB84D7F-5971-4257-9206-6E00FC9F2728}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CB84D7F-5971-4257-9206-6E00FC9F2728}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CB84D7F-5971-4257-9206-6E00FC9F2728}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6207C0CA-F463-436F-9CB4-910A2B6DC474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6207C0CA-F463-436F-9CB4-910A2B6DC474}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6207C0CA-F463-436F-9CB4-910A2B6DC474}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6207C0CA-F463-436F-9CB4-910A2B6DC474}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
