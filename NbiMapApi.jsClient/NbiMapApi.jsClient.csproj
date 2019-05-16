@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{D8341F71-FC7B-47E8-8123-E11990CF93F7}</ProjectGuid>
+        <OutputType>Library</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>NbiMapApi.jsClient</RootNamespace>
+        <AssemblyName>NbiMapApi.jsClient</AssemblyName>
+        <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+      <Content Include="Codebehind\angular-ymaps.min.js">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Codebehind\app.js">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Content\bootstrap-grid.css" />
+      <Content Include="Content\bootstrap-grid.min.css" />
+      <Content Include="Content\bootstrap.css" />
+      <Content Include="Content\bootstrap.min.css">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="index.html">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Scripts\angular-animate.js" />
+      <Content Include="Scripts\angular-animate.min.js" />
+      <Content Include="Scripts\angular-aria.js" />
+      <Content Include="Scripts\angular-aria.min.js" />
+      <Content Include="Scripts\angular-cookies.js" />
+      <Content Include="Scripts\angular-cookies.min.js" />
+      <Content Include="Scripts\angular-csp.css" />
+      <Content Include="Scripts\angular-loader.js" />
+      <Content Include="Scripts\angular-loader.min.js" />
+      <Content Include="Scripts\angular-message-format.js" />
+      <Content Include="Scripts\angular-message-format.min.js" />
+      <Content Include="Scripts\angular-messages.js" />
+      <Content Include="Scripts\angular-messages.min.js" />
+      <Content Include="Scripts\angular-mocks.js" />
+      <Content Include="Scripts\angular-parse-ext.js" />
+      <Content Include="Scripts\angular-parse-ext.min.js" />
+      <Content Include="Scripts\angular-resource.js" />
+      <Content Include="Scripts\angular-resource.min.js" />
+      <Content Include="Scripts\angular-route.js" />
+      <Content Include="Scripts\angular-route.min.js" />
+      <Content Include="Scripts\angular-sanitize.js" />
+      <Content Include="Scripts\angular-sanitize.min.js" />
+      <Content Include="Scripts\angular-touch.js" />
+      <Content Include="Scripts\angular-touch.min.js" />
+      <Content Include="Scripts\angular.js" />
+      <Content Include="Scripts\angular.min.js">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Scripts\bootstrap.bundle.js" />
+      <Content Include="Scripts\bootstrap.bundle.min.js" />
+      <Content Include="Scripts\bootstrap.js" />
+      <Content Include="Scripts\bootstrap.min.js">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Scripts\i18n\angular-locale_af-na.js" />
+      <Content Include="Scripts\i18n\angular-locale_af-za.js" />
+      <Content Include="Scripts\i18n\angular-locale_af.js" />
+      <Content Include="Scripts\i18n\angular-locale_agq-cm.js" />
+      <Content Include="Scripts\i18n\angular-locale_agq.js" />
+      <Content Include="Scripts\i18n\angular-locale_ak-gh.js" />
+      <Content Include="Scripts\i18n\angular-locale_ak.js" />
+      <Content Include="Scripts\i18n\angular-locale_am-et.js" />
+      <Content Include="Scripts\i18n\angular-locale_am.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-001.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-ae.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-bh.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-dj.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-dz.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-eg.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-eh.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-er.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-il.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-iq.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-jo.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-km.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-kw.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-lb.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-ly.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-ma.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-mr.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-om.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-ps.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-qa.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-sa.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-sd.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-so.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-ss.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-sy.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-td.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-tn.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-xb.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar-ye.js" />
+      <Content Include="Scripts\i18n\angular-locale_ar.js" />
+      <Content Include="Scripts\i18n\angular-locale_as-in.js" />
+      <Content Include="Scripts\i18n\angular-locale_nb.js" />
+      <Content Include="Scripts\i18n\angular-locale_nd-zw.js" />
+      <Content Include="Scripts\i18n\angular-locale_tk-tm.js" />
+      <Content Include="Scripts\i18n\angular-locale_tk.js" />
+      <Content Include="Scripts\i18n\angular-locale_tl.js" />
+      <Content Include="Scripts\i18n\angular-locale_to-to.js" />
+      <Content Include="Scripts\i18n\angular-locale_to.js" />
+      <Content Include="Scripts\i18n\angular-locale_tr-cy.js" />
+      <Content Include="Scripts\i18n\angular-locale_tr-tr.js" />
+      <Content Include="Scripts\i18n\angular-locale_tr.js" />
+      <Content Include="Scripts\i18n\angular-locale_twq-ne.js" />
+      <Content Include="Scripts\i18n\angular-locale_twq.js" />
+      <Content Include="Scripts\i18n\angular-locale_tzm-ma.js" />
+      <Content Include="Scripts\i18n\angular-locale_tzm.js" />
+      <Content Include="Scripts\i18n\angular-locale_ug-cn.js" />
+      <Content Include="Scripts\i18n\angular-locale_ug.js" />
+      <Content Include="Scripts\i18n\angular-locale_uk-ua.js" />
+      <Content Include="Scripts\i18n\angular-locale_uk.js" />
+      <Content Include="Scripts\i18n\angular-locale_ur-in.js" />
+      <Content Include="Scripts\i18n\angular-locale_ur-pk.js" />
+      <Content Include="Scripts\i18n\angular-locale_ur.js" />
+      <Content Include="Scripts\i18n\angular-locale_uz-arab-af.js" />
+      <Content Include="Scripts\i18n\angular-locale_uz-arab.js" />
+      <Content Include="Scripts\i18n\angular-locale_uz-cyrl-uz.js" />
+      <Content Include="Scripts\i18n\angular-locale_uz-cyrl.js" />
+      <Content Include="Scripts\i18n\angular-locale_uz-latn-uz.js" />
+      <Content Include="Scripts\i18n\angular-locale_uz-latn.js" />
+      <Content Include="Scripts\i18n\angular-locale_uz.js" />
+      <Content Include="Scripts\i18n\angular-locale_vai-latn-lr.js" />
+      <Content Include="Scripts\i18n\angular-locale_vai-latn.js" />
+      <Content Include="Scripts\i18n\angular-locale_vai-vaii-lr.js" />
+      <Content Include="Scripts\i18n\angular-locale_vai-vaii.js" />
+      <Content Include="Scripts\i18n\angular-locale_vai.js" />
+      <Content Include="Scripts\i18n\angular-locale_vi-vn.js" />
+      <Content Include="Scripts\i18n\angular-locale_vi.js" />
+      <Content Include="Scripts\i18n\angular-locale_vo-001.js" />
+      <Content Include="Scripts\i18n\angular-locale_vo.js" />
+      <Content Include="Scripts\i18n\angular-locale_vun-tz.js" />
+      <Content Include="Scripts\i18n\angular-locale_vun.js" />
+      <Content Include="Scripts\i18n\angular-locale_wae-ch.js" />
+      <Content Include="Scripts\i18n\angular-locale_wae.js" />
+      <Content Include="Scripts\i18n\angular-locale_xog-ug.js" />
+      <Content Include="Scripts\i18n\angular-locale_xog.js" />
+      <Content Include="Scripts\i18n\angular-locale_yav-cm.js" />
+      <Content Include="Scripts\i18n\angular-locale_yav.js" />
+      <Content Include="Scripts\i18n\angular-locale_yi-001.js" />
+      <Content Include="Scripts\i18n\angular-locale_yi.js" />
+      <Content Include="Scripts\i18n\angular-locale_yo-bj.js" />
+      <Content Include="Scripts\i18n\angular-locale_yo-ng.js" />
+      <Content Include="Scripts\i18n\angular-locale_yo.js" />
+      <Content Include="Scripts\i18n\angular-locale_zh.js" />
+      <Content Include="Scripts\i18n\angular-locale_zu-za.js" />
+      <Content Include="Scripts\i18n\angular-locale_zu.js" />
+      <Content Include="Scripts\jquery-3.4.1-vsdoc.js" />
+      <Content Include="Scripts\jquery-3.4.1.js" />
+      <Content Include="Scripts\jquery-3.4.1.min.js">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Scripts\jquery-3.4.1.slim.js" />
+      <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+      <Content Include="Scripts\popper-utils.js" />
+      <Content Include="Scripts\popper-utils.min.js" />
+      <Content Include="Scripts\popper.js" />
+      <Content Include="Scripts\popper.min.js">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Scripts\README.md" />
+      <Content Include="Scripts\test-bundles\angular-aria.js" />
+      <Content Include="Scripts\test-bundles\angular-cookies.js" />
+      <Content Include="Scripts\test-bundles\angular-message-format.js" />
+      <Content Include="Scripts\test-bundles\angular-messages.js" />
+      <Content Include="Scripts\test-bundles\angular-resource.js" />
+      <Content Include="Scripts\test-bundles\angular-route.js" />
+      <Content Include="Scripts\test-bundles\angular-sanitize.js" />
+      <Content Include="Scripts\test-bundles\angular-touch.js" />
+      <Content Include="Scripts\umd\popper-utils.js" />
+      <Content Include="Scripts\umd\popper-utils.min.js" />
+      <Content Include="Scripts\umd\popper.js" />
+      <Content Include="Scripts\umd\popper.min.js" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Include="Content\bootstrap-grid.css.map" />
+      <None Include="Content\bootstrap-grid.min.css.map" />
+      <None Include="Content\bootstrap.css.map" />
+      <None Include="Content\bootstrap.min.css.map" />
+      <None Include="packages.config" />
+      <None Include="Scripts\angular-animate.min.js.map" />
+      <None Include="Scripts\angular-aria.min.js.map" />
+      <None Include="Scripts\angular-cookies.min.js.map" />
+      <None Include="Scripts\angular-loader.min.js.map" />
+      <None Include="Scripts\angular-message-format.min.js.map" />
+      <None Include="Scripts\angular-messages.min.js.map" />
+      <None Include="Scripts\angular-parse-ext.min.js.map" />
+      <None Include="Scripts\angular-resource.min.js.map" />
+      <None Include="Scripts\angular-route.min.js.map" />
+      <None Include="Scripts\angular-sanitize.min.js.map" />
+      <None Include="Scripts\angular-touch.min.js.map" />
+      <None Include="Scripts\angular.min.js.map" />
+      <None Include="Scripts\bootstrap.bundle.js.map" />
+      <None Include="Scripts\bootstrap.bundle.min.js.map" />
+      <None Include="Scripts\bootstrap.js.map" />
+      <None Include="Scripts\bootstrap.min.js.map" />
+      <None Include="Scripts\errors.json" />
+      <None Include="Scripts\jquery-3.4.1.min.map" />
+      <None Include="Scripts\jquery-3.4.1.slim.min.map" />
+      <None Include="Scripts\popper-utils.js.map" />
+      <None Include="Scripts\popper-utils.min.js.map" />
+      <None Include="Scripts\popper.js.map" />
+      <None Include="Scripts\popper.min.js.map" />
+      <None Include="Scripts\sitemap.xml" />
+      <None Include="Scripts\umd\popper-utils.js.map" />
+      <None Include="Scripts\umd\popper-utils.min.js.map" />
+      <None Include="Scripts\umd\popper.js.map" />
+      <None Include="Scripts\umd\popper.min.js.map" />
+      <None Include="Scripts\version.json" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+    <Import Project="..\packages\MSBuild.NugetContentRestore.0.1.6\build\net40\MSBuild.NugetContentRestore.targets" Condition="Exists('..\packages\MSBuild.NugetContentRestore.0.1.6\build\net40\MSBuild.NugetContentRestore.targets')" />
+    <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+      <PropertyGroup>
+        <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105.The missing file is {0}.</ErrorText>
+      </PropertyGroup>
+      <Error Condition="!Exists('..\packages\MSBuild.NugetContentRestore.0.1.6\build\net40\MSBuild.NugetContentRestore.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSBuild.NugetContentRestore.0.1.6\build\net40\MSBuild.NugetContentRestore.targets'))" />
+    </Target>
+    <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+</Project>

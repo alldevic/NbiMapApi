@@ -7,7 +7,7 @@ namespace NbiMapApi.Server
     {
         public HomeModule()
         {
-            Get("/", _ => "Hello world!");
+            Get("/", _ => View["index"]);
         }
     }
 }

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<script src="Scripts/angular.min.js"></script>
+<script src="Codebehind/angular-ymaps.min.js"></script>
+<script src="Codebehind/app.js"></script>
+<body ng-app="MyApp">
+
+<div  ng-controller="MapCtrl"  
+        ng-init="coords=[55.21, 34.30];center=[55.21, 34.30];zoom=10">
+    <yandex-map center="center" zoom="zoom">
+        <ymap-marker coordinates="coords"></ymap-marker>
+    </yandex-map>
+</div>
+
+
+</body>
+</html>

@@ -126,6 +126,7 @@
       <Content Include="Content\bootstrap-reboot.min.css" />
       <Content Include="Content\bootstrap.css" />
       <Content Include="Content\bootstrap.min.css" />
+      <Content Include="data.json" />
       <Content Include="Scripts\bootstrap.bundle.js" />
       <Content Include="Scripts\bootstrap.bundle.min.js" />
       <Content Include="Scripts\bootstrap.js" />
@@ -139,6 +140,12 @@
       <Content Include="Scripts\umd\popper-utils.js" />
       <Content Include="Scripts\umd\popper-utils.min.js" />
       <Content Include="Scripts\umd\popper.js" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\NbiMapApi.jsClient\NbiMapApi.jsClient.csproj">
+        <Project>{d8341f71-fc7b-47e8-8123-e11990cf93f7}</Project>
+        <Name>NbiMapApi.jsClient</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
