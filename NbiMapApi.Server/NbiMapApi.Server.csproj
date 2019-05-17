@@ -41,7 +41,11 @@
       <Compile Include="Models\FileItem.cs" />
       <Compile Include="Models\GeolocataorResponse.cs" />
       <Compile Include="Models\GeoModel.cs" />
+      <Compile Include="Models\TSP\Point.cs" />
+      <Compile Include="Models\TSP\Population.cs" />
+      <Compile Include="Models\TSP\Tour.cs" />
       <Compile Include="Startup.cs" />
+      <Compile Include="TspSettings.cs" />
       <Compile Include="Utils\Serialize.cs" />
     </ItemGroup>
     <ItemGroup>
