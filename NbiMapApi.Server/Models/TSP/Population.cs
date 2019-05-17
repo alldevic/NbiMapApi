@@ -55,7 +55,7 @@ namespace NbiMapApi.Server.Models.TSP
             {
                 var t = Select().Crossover(Select());
 
-                foreach (var c in t.Points)
+                foreach (var _ in t.Points)
                 {
                     t = t.Mutate();
                 }

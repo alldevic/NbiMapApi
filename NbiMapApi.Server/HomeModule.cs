@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
@@ -101,6 +100,7 @@ namespace NbiMapApi.Server
                         tmp[i].X, tmp[i].Y
                     });
                 }
+
                 _coords = new List<double[]>();
                 return JsonConvert.SerializeObject(coords);
             });
